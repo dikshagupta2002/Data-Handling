@@ -1,0 +1,41 @@
+f = open("username_txt","w")
+f.write("Diksha@12345")
+f.close()
+g = open("Password_txt","w")
+g.write("10@pril2002")
+g.close()
+h = open("Phone_txt","w")
+h.write("793253263573873")
+h.close()
+i = open("Email_Id_txt","w")
+i.write("dikshagupta1724@gmail.com")
+i.close()
+
+username = input("Enter Username :")
+if (username == a):
+    print("Correct Username...Enter the password!!")
+    password = input("Enter Password :")
+    if(password == b):
+        print("Logged Inn Successfully!!!")
+    else:
+        print("Incorrect Password....Try Again!!")
+        password = input("Enter Password :")
+        if(password == b):
+            print("Logged Inn Successfully!!!")
+        else:
+            print("Incorrect Password again....Try with the Phone no...")
+            Phone_no = input("Enter Phone_no. :")
+            if(Phone_no == c):
+                print("Correct Credentials...Successfully Logged Inn !!!")
+            else:
+                print("Incorrect Phone No. !!!! Try with the Email Id ...")
+                Email_Id = input("Enter Email_Id")
+                if(Email_Id == d):
+                    print("Logged In Successfully !!!!")
+                else:
+                    print("You have entered all wrong credentials...Try again after sometime !!!")
+                    
+else :
+    print("Incorrect Username....Please Check Username !!!")
+        
+        
